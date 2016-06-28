@@ -1,0 +1,131 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Application", "Application\BwlGit.AppServer.Application.csproj", "{7C8D0FC2-47E2-4773-8D45-4B7649080B01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{FB5419C4-430D-4E38-A58C-49D63260DC32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{838AE71E-E17B-489D-A960-375D4828C328}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1EDE451C-B2F1-4250-AA32-F3F19CD95DC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{EBEF832F-1560-4456-BE5C-1BA93C1B385F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{70CE5603-CA5C-4195-89D7-64E5C82AE2AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Domain.Services", "Domain\BwlGit.AppServer.Domain.Services\BwlGit.AppServer.Domain.Services.csproj", "{E107E160-83A7-485C-AAB6-CDA1DAB897AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bwlGit.AppServer.Test", "Tests\bwlGit.AppServer.Test\bwlGit.AppServer.Test.csproj", "{035605EA-EAAD-480F-9C07-A5DDA937D0F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{030F5980-DCAD-48D8-B3DA-474F48EFE10B}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Domain.Models", "Domain\BwlGit.AppServer.Domain.Models\BwlGit.AppServer.Domain.Models.csproj", "{D40BDDEE-CF16-447C-861F-4A2B81166B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Domain.Validation", "Domain\BwlGit.AppServer.Domain.Validation\BwlGit.AppServer.Domain.Validation.csproj", "{F9D41883-B140-4397-A736-76AE0E86E684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Domain.Contracts", "Domain\BwlGit.AppServer.Domain.Contracts\BwlGit.AppServer.Domain.Contracts.csproj", "{F7B8986E-D65E-430E-856C-1631179E16CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Infrastructure", "Infrastructure\BwlGit.AppServer.Infrastructure\BwlGit.AppServer.Infrastructure.csproj", "{A7FE1ABD-6FED-40F9-AB35-68CD694FDEE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Infrastructure.BootStrapper", "Infrastructure\BwlGit.AppServer.Infrastructure.BootStrapper\BwlGit.AppServer.Infrastructure.BootStrapper.csproj", "{E7CA7D5A-A4F2-439A-B125-44D0C0307D7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Infrastructure.Contracts", "Domain\BwlGit.AppServer.Infrastructure.Contracts\BwlGit.AppServer.Infrastructure.Contracts.csproj", "{EE40B528-AA28-48D6-9529-6292DDE9132F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Shared.Logger", "Shared\BwlGit.AppServer.Shared.Logger\BwlGit.AppServer.Shared.Logger.csproj", "{1773CDA9-EB66-4E9C-AA3D-7AB6EDC7BA81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Shared", "Shared\BwlGit.AppServer.Shared\BwlGit.AppServer.Shared.csproj", "{21076199-AE47-4DC9-9944-7FD601333253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Domain.Bootstrapper", "Domain\BwlGit.AppServer.Domain.Bootstrapper\BwlGit.AppServer.Domain.Bootstrapper.csproj", "{27199BB7-4E4D-428A-ABB8-7819BB9C44CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Domain.Services.Test", "BwlGit.AppServer.Domain.Services.Test\BwlGit.AppServer.Domain.Services.Test.csproj", "{83C1A714-76D4-479C-A3DE-B4E1EDC8B832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwlGit.AppServer.Infrastructure.Repositories.Test", "Tests\BwlGit.AppServer.Infrastructure.Repositories.Write.Test\BwlGit.AppServer.Infrastructure.Repositories.Test.csproj", "{5177A30C-7158-4A37-BCF7-BC453090E0DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C8D0FC2-47E2-4773-8D45-4B7649080B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8D0FC2-47E2-4773-8D45-4B7649080B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8D0FC2-47E2-4773-8D45-4B7649080B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8D0FC2-47E2-4773-8D45-4B7649080B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E107E160-83A7-485C-AAB6-CDA1DAB897AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E107E160-83A7-485C-AAB6-CDA1DAB897AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E107E160-83A7-485C-AAB6-CDA1DAB897AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E107E160-83A7-485C-AAB6-CDA1DAB897AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035605EA-EAAD-480F-9C07-A5DDA937D0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035605EA-EAAD-480F-9C07-A5DDA937D0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035605EA-EAAD-480F-9C07-A5DDA937D0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035605EA-EAAD-480F-9C07-A5DDA937D0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40BDDEE-CF16-447C-861F-4A2B81166B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40BDDEE-CF16-447C-861F-4A2B81166B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40BDDEE-CF16-447C-861F-4A2B81166B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40BDDEE-CF16-447C-861F-4A2B81166B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D41883-B140-4397-A736-76AE0E86E684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D41883-B140-4397-A736-76AE0E86E684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D41883-B140-4397-A736-76AE0E86E684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D41883-B140-4397-A736-76AE0E86E684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B8986E-D65E-430E-856C-1631179E16CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B8986E-D65E-430E-856C-1631179E16CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B8986E-D65E-430E-856C-1631179E16CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B8986E-D65E-430E-856C-1631179E16CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FE1ABD-6FED-40F9-AB35-68CD694FDEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FE1ABD-6FED-40F9-AB35-68CD694FDEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FE1ABD-6FED-40F9-AB35-68CD694FDEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FE1ABD-6FED-40F9-AB35-68CD694FDEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CA7D5A-A4F2-439A-B125-44D0C0307D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CA7D5A-A4F2-439A-B125-44D0C0307D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CA7D5A-A4F2-439A-B125-44D0C0307D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CA7D5A-A4F2-439A-B125-44D0C0307D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE40B528-AA28-48D6-9529-6292DDE9132F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE40B528-AA28-48D6-9529-6292DDE9132F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE40B528-AA28-48D6-9529-6292DDE9132F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE40B528-AA28-48D6-9529-6292DDE9132F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1773CDA9-EB66-4E9C-AA3D-7AB6EDC7BA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1773CDA9-EB66-4E9C-AA3D-7AB6EDC7BA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1773CDA9-EB66-4E9C-AA3D-7AB6EDC7BA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1773CDA9-EB66-4E9C-AA3D-7AB6EDC7BA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21076199-AE47-4DC9-9944-7FD601333253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21076199-AE47-4DC9-9944-7FD601333253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21076199-AE47-4DC9-9944-7FD601333253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21076199-AE47-4DC9-9944-7FD601333253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27199BB7-4E4D-428A-ABB8-7819BB9C44CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27199BB7-4E4D-428A-ABB8-7819BB9C44CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27199BB7-4E4D-428A-ABB8-7819BB9C44CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27199BB7-4E4D-428A-ABB8-7819BB9C44CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C1A714-76D4-479C-A3DE-B4E1EDC8B832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C1A714-76D4-479C-A3DE-B4E1EDC8B832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C1A714-76D4-479C-A3DE-B4E1EDC8B832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C1A714-76D4-479C-A3DE-B4E1EDC8B832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5177A30C-7158-4A37-BCF7-BC453090E0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5177A30C-7158-4A37-BCF7-BC453090E0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5177A30C-7158-4A37-BCF7-BC453090E0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5177A30C-7158-4A37-BCF7-BC453090E0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C8D0FC2-47E2-4773-8D45-4B7649080B01} = {FB5419C4-430D-4E38-A58C-49D63260DC32}
+		{E107E160-83A7-485C-AAB6-CDA1DAB897AD} = {838AE71E-E17B-489D-A960-375D4828C328}
+		{035605EA-EAAD-480F-9C07-A5DDA937D0F3} = {70CE5603-CA5C-4195-89D7-64E5C82AE2AD}
+		{D40BDDEE-CF16-447C-861F-4A2B81166B8C} = {838AE71E-E17B-489D-A960-375D4828C328}
+		{F9D41883-B140-4397-A736-76AE0E86E684} = {838AE71E-E17B-489D-A960-375D4828C328}
+		{F7B8986E-D65E-430E-856C-1631179E16CD} = {838AE71E-E17B-489D-A960-375D4828C328}
+		{A7FE1ABD-6FED-40F9-AB35-68CD694FDEE4} = {1EDE451C-B2F1-4250-AA32-F3F19CD95DC5}
+		{E7CA7D5A-A4F2-439A-B125-44D0C0307D7B} = {1EDE451C-B2F1-4250-AA32-F3F19CD95DC5}
+		{EE40B528-AA28-48D6-9529-6292DDE9132F} = {1EDE451C-B2F1-4250-AA32-F3F19CD95DC5}
+		{1773CDA9-EB66-4E9C-AA3D-7AB6EDC7BA81} = {EBEF832F-1560-4456-BE5C-1BA93C1B385F}
+		{21076199-AE47-4DC9-9944-7FD601333253} = {EBEF832F-1560-4456-BE5C-1BA93C1B385F}
+		{27199BB7-4E4D-428A-ABB8-7819BB9C44CF} = {838AE71E-E17B-489D-A960-375D4828C328}
+		{83C1A714-76D4-479C-A3DE-B4E1EDC8B832} = {70CE5603-CA5C-4195-89D7-64E5C82AE2AD}
+		{5177A30C-7158-4A37-BCF7-BC453090E0DA} = {70CE5603-CA5C-4195-89D7-64E5C82AE2AD}
+	EndGlobalSection
+EndGlobal
